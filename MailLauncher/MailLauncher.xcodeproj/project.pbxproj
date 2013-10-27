@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438D16171813EF5100A8C406 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D16161813EF5100A8C406 /* Cocoa.framework */; };
+		438D16211813EF5100A8C406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 438D161F1813EF5100A8C406 /* InfoPlist.strings */; };
+		438D16231813EF5100A8C406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D16221813EF5100A8C406 /* main.m */; };
+		438D16271813EF5100A8C406 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 438D16251813EF5100A8C406 /* Credits.rtf */; };
+		438D162A1813EF5100A8C406 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D16291813EF5100A8C406 /* MLAppDelegate.m */; };
+		438D162D1813EF5100A8C406 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 438D162B1813EF5100A8C406 /* MainMenu.xib */; };
+		438D162F1813EF5100A8C406 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438D162E1813EF5100A8C406 /* Images.xcassets */; };
+		438D16361813EF5100A8C406 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D16351813EF5100A8C406 /* XCTest.framework */; };
+		438D16371813EF5100A8C406 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438D16161813EF5100A8C406 /* Cocoa.framework */; };
+		438D163F1813EF5100A8C406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 438D163D1813EF5100A8C406 /* InfoPlist.strings */; };
+		438D16411813EF5100A8C406 /* MailLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D16401813EF5100A8C406 /* MailLauncherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438D16381813EF5100A8C406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438D160B1813EF5100A8C406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438D16121813EF5100A8C406;
+			remoteInfo = MailLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438D16131813EF5100A8C406 /* MailLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D16161813EF5100A8C406 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		438D16191813EF5100A8C406 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		438D161A1813EF5100A8C406 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		438D161B1813EF5100A8C406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		438D161E1813EF5100A8C406 /* MailLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailLauncher-Info.plist"; sourceTree = "<group>"; };
+		438D16201813EF5100A8C406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		438D16221813EF5100A8C406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		438D16241813EF5100A8C406 /* MailLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MailLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		438D16261813EF5100A8C406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		438D16281813EF5100A8C406 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		438D16291813EF5100A8C406 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		438D162C1813EF5100A8C406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		438D162E1813EF5100A8C406 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		438D16341813EF5100A8C406 /* MailLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D16351813EF5100A8C406 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		438D163C1813EF5100A8C406 /* MailLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		438D163E1813EF5100A8C406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		438D16401813EF5100A8C406 /* MailLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailLauncherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438D16101813EF5100A8C406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D16171813EF5100A8C406 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D16311813EF5100A8C406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D16371813EF5100A8C406 /* Cocoa.framework in Frameworks */,
+				438D16361813EF5100A8C406 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438D160A1813EF5100A8C406 = {
+			isa = PBXGroup;
+			children = (
+				438D161C1813EF5100A8C406 /* MailLauncher */,
+				438D163A1813EF5100A8C406 /* MailLauncherTests */,
+				438D16151813EF5100A8C406 /* Frameworks */,
+				438D16141813EF5100A8C406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438D16141813EF5100A8C406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438D16131813EF5100A8C406 /* MailLauncher.app */,
+				438D16341813EF5100A8C406 /* MailLauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438D16151813EF5100A8C406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438D16161813EF5100A8C406 /* Cocoa.framework */,
+				438D16351813EF5100A8C406 /* XCTest.framework */,
+				438D16181813EF5100A8C406 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438D16181813EF5100A8C406 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438D16191813EF5100A8C406 /* AppKit.framework */,
+				438D161A1813EF5100A8C406 /* CoreData.framework */,
+				438D161B1813EF5100A8C406 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		438D161C1813EF5100A8C406 /* MailLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				438D16281813EF5100A8C406 /* MLAppDelegate.h */,
+				438D16291813EF5100A8C406 /* MLAppDelegate.m */,
+				438D162B1813EF5100A8C406 /* MainMenu.xib */,
+				438D162E1813EF5100A8C406 /* Images.xcassets */,
+				438D161D1813EF5100A8C406 /* Supporting Files */,
+			);
+			path = MailLauncher;
+			sourceTree = "<group>";
+		};
+		438D161D1813EF5100A8C406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438D161E1813EF5100A8C406 /* MailLauncher-Info.plist */,
+				438D161F1813EF5100A8C406 /* InfoPlist.strings */,
+				438D16221813EF5100A8C406 /* main.m */,
+				438D16241813EF5100A8C406 /* MailLauncher-Prefix.pch */,
+				438D16251813EF5100A8C406 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		438D163A1813EF5100A8C406 /* MailLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				438D16401813EF5100A8C406 /* MailLauncherTests.m */,
+				438D163B1813EF5100A8C406 /* Supporting Files */,
+			);
+			path = MailLauncherTests;
+			sourceTree = "<group>";
+		};
+		438D163B1813EF5100A8C406 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438D163C1813EF5100A8C406 /* MailLauncherTests-Info.plist */,
+				438D163D1813EF5100A8C406 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438D16121813EF5100A8C406 /* MailLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D16441813EF5100A8C406 /* Build configuration list for PBXNativeTarget "MailLauncher" */;
+			buildPhases = (
+				438D160F1813EF5100A8C406 /* Sources */,
+				438D16101813EF5100A8C406 /* Frameworks */,
+				438D16111813EF5100A8C406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailLauncher;
+			productName = MailLauncher;
+			productReference = 438D16131813EF5100A8C406 /* MailLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438D16331813EF5100A8C406 /* MailLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D16471813EF5100A8C406 /* Build configuration list for PBXNativeTarget "MailLauncherTests" */;
+			buildPhases = (
+				438D16301813EF5100A8C406 /* Sources */,
+				438D16311813EF5100A8C406 /* Frameworks */,
+				438D16321813EF5100A8C406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438D16391813EF5100A8C406 /* PBXTargetDependency */,
+			);
+			name = MailLauncherTests;
+			productName = MailLauncherTests;
+			productReference = 438D16341813EF5100A8C406 /* MailLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438D160B1813EF5100A8C406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "mySugr GmbH";
+				TargetAttributes = {
+					438D16331813EF5100A8C406 = {
+						TestTargetID = 438D16121813EF5100A8C406;
+					};
+				};
+			};
+			buildConfigurationList = 438D160E1813EF5100A8C406 /* Build configuration list for PBXProject "MailLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438D160A1813EF5100A8C406;
+			productRefGroup = 438D16141813EF5100A8C406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438D16121813EF5100A8C406 /* MailLauncher */,
+				438D16331813EF5100A8C406 /* MailLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438D16111813EF5100A8C406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D16211813EF5100A8C406 /* InfoPlist.strings in Resources */,
+				438D162F1813EF5100A8C406 /* Images.xcassets in Resources */,
+				438D16271813EF5100A8C406 /* Credits.rtf in Resources */,
+				438D162D1813EF5100A8C406 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D16321813EF5100A8C406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D163F1813EF5100A8C406 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438D160F1813EF5100A8C406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D16231813EF5100A8C406 /* main.m in Sources */,
+				438D162A1813EF5100A8C406 /* MLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D16301813EF5100A8C406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D16411813EF5100A8C406 /* MailLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438D16391813EF5100A8C406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438D16121813EF5100A8C406 /* MailLauncher */;
+			targetProxy = 438D16381813EF5100A8C406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438D161F1813EF5100A8C406 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D16201813EF5100A8C406 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		438D16251813EF5100A8C406 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D16261813EF5100A8C406 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		438D162B1813EF5100A8C406 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D162C1813EF5100A8C406 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		438D163D1813EF5100A8C406 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D163E1813EF5100A8C406 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438D16421813EF5100A8C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		438D16431813EF5100A8C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		438D16451813EF5100A8C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailLauncher/MailLauncher-Prefix.pch";
+				INFOPLIST_FILE = "MailLauncher/MailLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		438D16461813EF5100A8C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailLauncher/MailLauncher-Prefix.pch";
+				INFOPLIST_FILE = "MailLauncher/MailLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		438D16481813EF5100A8C406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MailLauncher.app/Contents/MacOS/MailLauncher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailLauncher/MailLauncher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MailLauncherTests/MailLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		438D16491813EF5100A8C406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MailLauncher.app/Contents/MacOS/MailLauncher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailLauncher/MailLauncher-Prefix.pch";
+				INFOPLIST_FILE = "MailLauncherTests/MailLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438D160E1813EF5100A8C406 /* Build configuration list for PBXProject "MailLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D16421813EF5100A8C406 /* Debug */,
+				438D16431813EF5100A8C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438D16441813EF5100A8C406 /* Build configuration list for PBXNativeTarget "MailLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D16451813EF5100A8C406 /* Debug */,
+				438D16461813EF5100A8C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438D16471813EF5100A8C406 /* Build configuration list for PBXNativeTarget "MailLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D16481813EF5100A8C406 /* Debug */,
+				438D16491813EF5100A8C406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438D160B1813EF5100A8C406 /* Project object */;
+}
